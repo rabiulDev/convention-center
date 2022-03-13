@@ -14,3 +14,21 @@ body {
   font-size: 16px;
   color: #3e3e3e;
 }
+.carousel-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+}
+.carousel-description {
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+}
+.carousel-button {
+  background: #ffffff;
+  border-radius: 5px;
+  color: #3f87f5;
+  font-size: 1rem;
+  font-weight: 700;
+}
