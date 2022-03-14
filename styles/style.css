@@ -103,33 +103,37 @@ body {
   text-decoration: none;
   color: #3f87f5;
 }
+
+/* Css for highlight card */
 .highlight-badge {
   left: 220px;
   background-color: #ff4e4e;
 }
-/* Css for highlight card */
+.highlighted-card {
+  background: #3f87f5;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+  border-radius: 26px;
+}
+
+.highlighted-card-body h2,
+.highlighted-card-body h5,
+.highlighted-card-body p,
+.highlighted-card-body span {
+  color: #ffffff;
+}
+
+.package-details-list-highlight li i {
+  color: #ffffff;
+  background: #4475be63;
+}
+.package-button-highlight {
+  background: #ffffff;
+  margin-bottom: 34px;
+}
+
 @media (min-width: 768px) {
   .highlighted-card {
     position: relative;
     top: -50px;
-    background: #3f87f5;
-    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
-    border-radius: 26px;
-  }
-
-  .highlighted-card-body h2,
-  .highlighted-card-body h5,
-  .highlighted-card-body p,
-  .highlighted-card-body span {
-    color: #ffffff;
-  }
-
-  .package-details-list-highlight li i {
-    color: #ffffff;
-    background: #4475be63;
-  }
-  .package-button-highlight {
-    background: #ffffff;
-    margin-bottom: 34px;
   }
 }
