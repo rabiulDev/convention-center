@@ -144,6 +144,48 @@ body {
   line-height: 28px;
   color: #7e848c;
 }
+
+/* footer styles */
+.footer {
+  padding: 50px 0;
+  background: #0b0d17;
+}
+.footer-text {
+  color: #d9dbe1;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.get-app {
+  font-weight: 500;
+  font-size: 18px;
+
+  color: #d9dbe1;
+}
+
+.bnt-apple,
+.btn-android {
+  border: 1px solid gray;
+}
+.bnt-apple a,
+.btn-android a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+}
+.bnt-apple i,
+.btn-android i {
+  color: #ffffff;
+  margin-right: 5px;
+}
+.download {
+  font-size: x-small;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
 @media (min-width: 768px) {
   .highlighted-card {
     position: relative;
