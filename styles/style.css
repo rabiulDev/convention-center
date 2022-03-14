@@ -32,3 +32,104 @@ body {
   font-size: 1rem;
   font-weight: 700;
 }
+.carousel-button a {
+  text-decoration: none;
+}
+/* Main section start  */
+.price-title {
+  font-weight: 600;
+  font-size: 38px;
+  text-align: center;
+  color: #0a0826;
+}
+.package-price {
+  font-size: 36px;
+  font-weight: 700;
+  color: #231d4f;
+  line-height: 46px;
+}
+.package-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #231d4f;
+}
+.package-description {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #848199;
+}
+/* .check-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #5243c2;
+  background-color: #d3d1e4;
+  text-align: center;
+  font-size: 1rem;
+} */
+.package-details-list {
+  list-style-type: none;
+}
+.package-details-list li {
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+}
+.package-details-list li i {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  color: #5243c2;
+  background-color: #d3d1e4;
+  text-align: center;
+}
+.package-details-list span {
+  font-weight: 400;
+  font-size: 15px;
+
+  color: #848199;
+}
+.package-button {
+  width: 207px;
+  height: 45px;
+  background-color: #f7e0ee;
+}
+.package-button a {
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  color: #3f87f5;
+}
+.highlight-badge {
+  left: 220px;
+  background-color: #ff4e4e;
+}
+/* Css for highlight card */
+@media (min-width: 768px) {
+  .highlighted-card {
+    position: relative;
+    top: -50px;
+    background: #3f87f5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+  }
+
+  .highlighted-card-body h2,
+  .highlighted-card-body h5,
+  .highlighted-card-body p,
+  .highlighted-card-body span {
+    color: #ffffff;
+  }
+
+  .package-details-list-highlight li i {
+    color: #ffffff;
+    background: #4475be63;
+  }
+  .package-button-highlight {
+    background: #ffffff;
+    margin-bottom: 34px;
+  }
+}
