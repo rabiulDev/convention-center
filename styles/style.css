@@ -186,6 +186,22 @@ body {
   top: 0;
   left: 60px;
 }
+
+/* Toast style  */
+.toast-area {
+  border-left: 4px solid blue;
+}
+.toast-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #505050;
+  letter-spacing: 0.2px;
+}
+.fa-gift {
+  color: #007cff;
+}
+
 @media (min-width: 768px) {
   .highlighted-card {
     position: relative;
